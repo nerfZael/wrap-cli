@@ -8,6 +8,10 @@ The primary idea here is to develop CLI tools (of any kind) with Polywrap. The b
     - Additional control could be implemented by mimicking tx.origin and msg.sender functionality of smart contracts
 - Composability 
     - Due to the composable nature of wrappers, they can easily be reused, extend each others functionality or turned into standard interfaces for other similar tools to follow.
+- Decentralization
+    - Polywrap is a decentralized software development platform
+    - These CLI tools can be hosted on IPFS and registered on ENS
+    - In the future, with the Polywrap Registry, deployments will be able to be managed by a DAO or multisig wallet
 
 ## Wrap CLI manager
 
