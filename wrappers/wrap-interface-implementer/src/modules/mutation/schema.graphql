@@ -1,0 +1,11 @@
+#import { Mutation, Query } into FS from "w3://ens/rinkeby/wrap-fs.eth"
+#import { Query } into Console from "w3://ens/console.web3api.eth"
+#import { Query } into Mustache from "w3://ens/rinkeby/wrap-mustache.eth"
+#import { Query } into WrapMetadata from "w3://ens/rinkeby/wrap-metadata.eth"
+#import { Query } into Regex from "w3://ens/rinkeby/wrap-regex.eth"
+
+type Mutation {
+  generate(
+    inputs: [String!]!
+  ): Boolean!
+}

@@ -1,0 +1,51 @@
+{
+  "name": "@nerfzael/wrap-cli-manager",
+  "version": "0.1.0",
+  "main": "bin/main.js",
+  "types": "bin/main.d.ts",
+  "author": "nerfZael",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "/bin"
+  ],
+  "bin": {
+    "wcm": "./bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerfZael/wrap-cli-manager.git"
+  },
+  "keywords": [
+    "polywrap",
+    "ipfs",
+    "wrap",
+    "ens",
+    "polywrapper",
+    "wrapper",
+    "cli"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "dev": "ts-node src/main.ts",
+    "start": "node bin/main.js"
+  },
+  "dependencies": {
+    "@web3api/client-js": "0.0.1-prealpha.63",
+    "@web3api/ethereum-plugin-js": "0.0.1-prealpha.63",
+    "awilix": "6.0.0",
+    "axios": "0.24.0",
+    "commander": "8.3.0",
+    "custom-env": "2.0.1",
+    "ethers": "5.5.4",
+    "form-data": "4.0.0",
+    "mustache": "4.2.0",
+    "typescript": "4.4.2"
+  },
+  "devDependencies": {
+    "@types/mustache": "4.1.2",
+    "@types/node": "16.11.11",
+    "ts-node": "10.3.0",
+    "@web3api/cli": "0.0.1-prealpha.63"
+  }
+}
